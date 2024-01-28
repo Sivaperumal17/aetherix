@@ -27,7 +27,7 @@ body::-webkit-scrollbar-track {
 }
 .navbar {
     padding: 10px;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     top: 0;
     z-index: 100;
@@ -49,11 +49,13 @@ body::-webkit-scrollbar-track {
 }
 
 .logo {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #fff;
+    max-width: 200px; /* Adjust the maximum width as needed */
 }
 
+.logo img {
+    width: 100%; /* Make sure the logo takes the full width of its container */
+    height: auto; /* Maintain the aspect ratio */
+}
 .container {
     max-width: 1200px;
     margin: 60px auto 20px; /* Added margin-top to accommodate the fixed navbar */
