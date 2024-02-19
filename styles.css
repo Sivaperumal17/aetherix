@@ -169,7 +169,7 @@ body::-webkit-scrollbar-track {
     margin: 20px 0;
     position: relative;
     overflow: hidden;
-    padding:10px;
+ justify-content: space-around;
     border-radius: 10px;
     text-align: center;
     transition: transform 0.5s;
